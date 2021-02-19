@@ -5,7 +5,7 @@
  *  (including web sites) or distributed to other students.
  *
  *  Name: Minh Hang Nguyen Student ID: 166382184 Date: February 19th, 2021
- *  Link to deployment:
+ *  Link to deployment: https://restaurant-app-orpin.vercel.app/
  *
  *
  ********************************************************************************/

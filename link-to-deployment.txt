@@ -1,0 +1,6 @@
+Assignment 3
+Name: Minh Hang Nguyen
+Student ID: 166382184
+
+Link to Vercel deployment:
+https://restaurant-app-orpin.vercel.app/

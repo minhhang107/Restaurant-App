@@ -24,11 +24,14 @@ function Restaurants({ query }) {
 
     // get the query parameter
     const searchQuery = queryString.parse(query).borough;
-    var apiUrl = `https://guarded-inlet-74678.herokuapp.com/api/restaurants?page=${page}&perPage=10`;
+    var apiUrl = `https://guarded-inlet-74678.herokuapp.com/api/restaurants`;
 
     // generate api url to search by borough
-    if (query !== null && query !== "") {
-      apiUrl += `&borough=${searchQuery}`;
+    if (query === null || query === "") {
+      apiUrl += `?page=${page}&perPage=10`;
+    } else {
+      setPage(1);
+      apiUrl += `?page=${page}&perPage=10&borough=${searchQuery}`;
     }
 
     // get data from api
